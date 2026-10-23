@@ -1,1 +1,4 @@
 python/.venv/
+python/__pycache__
+python/nhl_data_components/__pycache__
+python/nhl_db_connection.py

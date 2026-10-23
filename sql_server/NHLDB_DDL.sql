@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS NHLDB.nhl.Franchises;
+GO
+DROP SCHEMA IF EXISTS nhl;
+GO
+CREATE SCHEMA nhl;
+GO
+CREATE TABLE NHLDB.nhl.Franchises (
+	FranchiseID INT PRIMARY KEY,
+	FranchiseName VARCHAR(80),
+	TeamShortname VARCHAR(80),
+	Location VARCHAR(80)
+
+);
+GO
